@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<style>
+		
+		.banner { position: relative; 
+		margin: auto;
+		overflow: auto; }
+		.banner li { list-style: none; }
+        .banner ul li { float: left; }
+	</style>
+</head>
+<body>
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="unslider.js"></script>
+		<script type="text/javascript">
+			$(function() {
+			$('.banner').unslider({
+			dots: true,
+			keys: true,
+			});
+				});
+	</script>
+<div class="banner">
+	<ul>
+		<li><img src="4.jpg" alt="moms"></li>
+		<li><img src="2.jpg" alt="moms"></li>
+		<li><img src="3.jpg" alt="moms"></li>
+		<li><img src="4.jpg" alt="moms"></li>
+	</ul>
+</div>
+</body>
+</html>

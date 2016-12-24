@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="byutricss1.css">
+</head>
+<body> 
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="unslider.js"></script>
+	<script type="text/javascript">
+		$(function() {
+    var w_height = $(window).height();
+    $('.banner').find('li').css('height', w_height);
+    
+    $('.banner').unslider({
+		speed: 250,
+		dots: true,
+		delay: 5000,
+	}).data('unslider').start();
+});
+	
+	</script>
+	<a href="https://www.facebook.com/pages/BYU-Triathlon/120702384609802"><img src="facebook1.png" alt="Facebook" style="height: 50px; width: 50px; z-index: 200; position: fixed; margin-left: 95%; top: 90%;"/></a>
+	<a href="https://twitter.com/byutriathlon"><img src="twitter.png" alt="Twitter" style="height: 50px; width: 50px; z-index: 200; position: fixed; margin-left: 95%; left: -60px; top: 90%;"/></a>
+	<a href="https://instagram.com/byutriathlon/"><img src="instagram.png" alt="Instagram" style="height: 50px; width: 50px; z-index: 200; position: fixed; margin-left: 95%; left: -120px; top: 90%;"/></a>
+	<div class="banner">
+		<ul>
+			<li><img src="megan2.jpg" alt="moms" class="scroll"></li>
+			<li><img src="brown1.jpg" alt="moms" class="scroll"></li>
+			<li><img src="white.jpg" alt="moms" class="scroll"></li>
+			<li><img src="provo1.jpg" alt="moms" class="scroll"></li>
+		</ul>
+	</div>
+	<div class="logo">
+		<img src="trilogo.png" alt="logo" class="logo">
+	</div>
+	<div class="nav1">
+	<ul class="nav">
+			<li class="nav"><a href="about.html" class="navlink">About</a></li>
+			<li class="nav"><a href="schedule.html" class="navlink">Schedule</a></li>
+			<li class="nav"><a href="support.html" class="navlink">Support</a></li>
+			<li class="nav"><a href="media.html" class="navlink">media</a></li>
+			<li class="nav"><a href="join.html" class="navlink">Join</a></li>
+	</ul>
+	</div>
+</body>
+</html>
